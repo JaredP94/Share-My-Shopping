@@ -4,7 +4,7 @@ var mainRouter = express.Router();
 var mysql = require('mysql');
 var sgMail = require('@sendgrid/mail');
 
-sgMail.setApiKey('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');
+sgMail.setApiKey('SENDGRID_API_KEY');
 
 // let connection = mysql.createConnection({
 //     host: 'localhost',
